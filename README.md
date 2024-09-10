@@ -34,11 +34,11 @@ if you use a translucent body you can soften the illumination making the effect 
 
 This library works to display messages on a screen made with WS2815 LED strips. References to LED strips that can be drawn LED by LED by connecting them in a serpentine pattern:
 
-1 --->--->--->--->--->
-2 <---<---<---<---<---
-3 --->--->--->--->--->
-4 <---<---<---<---<---
-5 --->--->--->--->--->
+	1   --->--->--->--->--->
+	2   <---<---<---<---<---
+ 	3   --->--->--->--->--->
+	4   <---<---<---<---<---
+  	5   --->--->--->--->--->
 
 For now, it only works with a font resolution of 8 in height x 5 in width (5 strips wide), and the view of the letters is vertical. To import the library, use:
 
@@ -70,6 +70,9 @@ The following image shows what appears on the screen when the method Mensaje is 
 
  `Pan1.Mensaje("HOLA")`
 
-![image](https://github.com/user-attachments/assets/86e93dec-50aa-4fcc-9b12-d73bee31f1e7)
+ ![Screenshot 2024-09-10 143730](https://github.com/user-attachments/assets/1bedb96e-e3c4-4c53-9915-bfc525a124ac)
+
+
+
 
  
