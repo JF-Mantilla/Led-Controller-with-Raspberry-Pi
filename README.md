@@ -19,3 +19,11 @@ First Ouput: a PCB taking advance of the RPI socket with these three funcionalit
 ---
 
 ### First Application: LED Column
+
+Using the OpenCV python library and the developed board it is possible to program effects that can be used to create lighting effects. Starting from viewing the image as 3 arrays of the RGB components. 
+
+The process performed is to resize the image to the amount of pixels available (the more pixels the better the quality of the effects) and then slide each of the columns at a desired speed, generating a left slice of the image on the LED strip and generating different lighting effects.
+
+![image](https://github.com/user-attachments/assets/b9785f6f-e027-4f1c-bf1d-9c6f60738f2d)
+
+if you use a translucent body you can soften the illumination making the effect more pleasing to the eye.
