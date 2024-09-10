@@ -32,7 +32,7 @@ if you use a translucent body you can soften the illumination making the effect 
 
 ### Second Application: LED Strip Messages
 
-This library works to display messages on a screen made with WS2815 LED strips. References to LED strips that can be drawn LED by LED by connecting them in a serpentine pattern:
+A library was created for this application. This library works to display messages on a screen made with WS2815 LED strips. References to LED strips that can be drawn LED by LED by connecting them in a serpentine pattern:
 
 	1   --->--->--->--->--->
 	2   <---<---<---<---<---
