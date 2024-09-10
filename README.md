@@ -27,3 +27,49 @@ The process performed is to resize the image to the amount of pixels available (
 ![image](https://github.com/user-attachments/assets/b9785f6f-e027-4f1c-bf1d-9c6f60738f2d)
 
 if you use a translucent body you can soften the illumination making the effect more pleasing to the eye.
+
+---
+
+### Second Application: LED Strip Messages
+
+This library works to display messages on a screen made with WS2815 LED strips. References to LED strips that can be drawn LED by LED by connecting them in a serpentine pattern:
+
+1 --->--->--->--->--->
+2 <---<---<---<---<---
+3 --->--->--->--->--->
+4 <---<---<---<---<---
+5 --->--->--->--->--->
+
+For now, it only works with a font resolution of 8 in height x 5 in width (5 strips wide), and the view of the letters is vertical. To import the library, use:
+
+`import Text`
+
+To initialize, use:
+
+`Text.INFO(pin, strips, length)`
+
+Where:
+
+* pin: the pin where the message will be displayed. This is designed for Raspberry Pi and uses the board library. The pin must be PWM.
+* strips: the number of strips that are placed in width. For now, it's designed only for 5 lines.
+* length: the length of the strip: the size of the strip you are using.
+
+Example: 
+
+`Text.INFO(board.D12, 5, 60)`
+
+Methods:
+* Clear(): Clears the screen.
+* Mensaje(message): Displays a message on the screen. message must be a string, e.g.: "HELLO WORLD".
+
+Additional required libraries:
+`import neopixel`
+
+Test:
+The following image shows what appears on the screen when the method Mensaje is called with the string "HOLA":
+
+ `Pan1.Mensaje("HOLA")`
+
+![image](https://github.com/user-attachments/assets/86e93dec-50aa-4fcc-9b12-d73bee31f1e7)
+
+ 
