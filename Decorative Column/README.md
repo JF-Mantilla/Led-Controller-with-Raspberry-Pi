@@ -1,8 +1,9 @@
-Key Steps Summary:
+## Key Steps Summary:
+
 Preparing the Image:
 
-Save the image in the images folder with the appropriate size.
-Modify line 8 of run.py to change the image name you want to process.
+* Save the image in the `images` folder with the appropriate size.
+Modify line 8 of `run.py` to change the image name you want to process.
 Installing OpenCV in a Virtual Environment:
 
 Download and install Python 3.9.
