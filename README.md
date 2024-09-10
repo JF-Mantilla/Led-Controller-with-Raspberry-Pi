@@ -15,3 +15,7 @@ Now, the outputs of the raspberry Pi pins are 3.3V. In the case of the LED strip
 First Ouput: a PCB taking advance of the RPI socket with these three funcionalities.
 
 ![image](https://github.com/user-attachments/assets/90a6e174-1a30-4b19-a55f-9525031529ef)
+
+---
+
+### First Application: LED Column
